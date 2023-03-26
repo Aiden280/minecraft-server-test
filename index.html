@@ -108,9 +108,8 @@
       color: white;
     }
 #loading {
-     background-image: url(loading.gif);
+    background-image: url(loading.gif);
     background-repeat: no-repeat;
-    position: absolute;
     background-position: center center;
     background-color: #526c30;
     background-size: 100px;
@@ -135,14 +134,11 @@
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
 <script>
-function hideLoader() {
-    $('#loading').hide();
-}
-
-$(window).ready(hideLoader);
-
-// Strongly recommended: Hide loader after 20 seconds, even if the page hasn't finished loading
-// setTimeout(hideLoader, 20 * 1000);
+window.onload = function() 
+    {
+        //display loader on page load 
+        $('#loading').fadeOut();
+    }
 </script>
 </body>
 </html>
