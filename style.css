@@ -1,0 +1,88 @@
+@font-face {
+    font-family: Minecraft;
+    font-display: swap;
+    src: url('MinecraftRegular-Bmg3.otf') format('truetype');
+}
+
+html,body{height:100%}
+
+body {
+    background: url('online mc.png') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Minecraft, sans-serif;
+}
+
+
+html, body, .container-table {
+    height: 100%;
+}
+.container-table {
+    display: table;
+}
+.vertical-center-row {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+.rainbow-text {
+    display: inline;
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 10em;
+    text-align: center;
+    margin-bottom: 50px;
+    -webkit-text-stroke: 5px rgba(0, 0, 0, 0.5);
+}
+
+.play-button {
+    font-size: 2em;
+    padding: 10px;
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    max-width: 100%;
+    width: 450px;
+    text-align: center;
+    display: block;
+    margin:auto;
+}
+
+body.select-version .play-button {
+    width: 525px
+}
+
+.play-button:hover {
+    background-color: darkgray;
+    color: white;
+}
+
+
+#loading {
+    background-image: url(loading.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #526c30;
+    background-size: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 9999999;
+}
+
+.footer-copyright{
+    font-size: 22px;
+    bottom: 10px;
+    left: 10px;
+}
+
+.back-button, body.select-version .back-button{
+    width:260px;
+    top:10px;
+    left:10px;
+}
