@@ -81,13 +81,23 @@ body.select-version .play-button {
 }
 
 .footer-copyright{
-    font-size: 22px;
-    bottom: 10px;
-    left: 10px;
+   font-size: 22px;    
 }
 
 .back-button, body.select-version .back-button{
     width:260px;
     top:10px;
     left:10px;
+}
+
+
+
+.mc-footer .mc-dd{
+     position: fixed;
+     top: 0;
+    right: 0;
+}
+
+.mc-footer .mc-dd{
+        font-size: 24px;
 }
