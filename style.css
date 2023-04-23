@@ -98,6 +98,7 @@ body.select-version .play-button {
     right: 0;
 }
 
-.mc-footer .mc-dd{
+.mc-footer .mc-dd .button{
         font-size: 24px;
+   
 }
