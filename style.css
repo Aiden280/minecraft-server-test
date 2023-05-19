@@ -113,3 +113,8 @@ body.select-version .play-button {
 .play-button2{
 	margin-top: 30px;
 }
+
+.diff-bg{
+	background: url('About-bg.png') no-repeat center center fixed;
+    background-size: cover;
+}
