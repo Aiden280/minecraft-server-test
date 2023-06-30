@@ -8,8 +8,6 @@ body:
     description: is the eaglercraft server made in replit?
     options:
     - label: the server is made in replit
-    
-    - type: checkboxes
   attributes:
     label: eaglercraft server?
     description: is the eaglercraft server made in an paid host and is the eaglercraft server 24/7 on?
