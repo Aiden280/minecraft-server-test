@@ -16,6 +16,6 @@ body:
     label: about server
     description: write at least 1 line about your server
     placeholder: |
-    online time, plugins, gamemodes,etc
+      online time, plugins, gamemodes,etc
   validations:
     required: false
