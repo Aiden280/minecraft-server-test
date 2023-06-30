@@ -6,6 +6,6 @@ body:
     label: text
     description: your text
     placeholder: |
-    your text
+      your text
   validations:
     required: false
