@@ -5,7 +5,7 @@ body:
   attributes:
     label: text
     description: your text
-    placeholder:
+    placeholder: |
     your text
   validations:
     required: false
