@@ -1,12 +1,11 @@
-name: 🐞 Bug
-description: File a bug/issue
-title: "[BUG] <title>"
-labels: [Bug, Needs Triage]
+name: Serverlist form
+description: Add a eaglercraft/replit server
+title: "server"
 body:
 - type: checkboxes
   attributes:
-    label: Is there an existing issue for this?
-    description: Please search to see if an issue already exists for the bug you encountered.
+    label: replit server?
+    description: is the eaglercraft server made in replit?
     options:
     - label: I have searched the existing issues
       required: true
