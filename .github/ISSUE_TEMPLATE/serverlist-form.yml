@@ -19,3 +19,9 @@ body:
       online time, plugins, gamemodes,etc
   validations:
     required: false
+   label: server ip
+    description: your server's ip
+    placeholder: |
+      online time, plugins, gamemodes,etc
+  validations:
+    required: true
