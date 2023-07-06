@@ -25,4 +25,4 @@ body:
     label: server ip
     description: the ip of the server
   validations:
-    required: false
+    required: true
