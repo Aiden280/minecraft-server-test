@@ -21,8 +21,8 @@ body:
     required: false
     
 - type: input
-    attributes:
-      label: server ip
-      description: the ip of the server
-    Validation:
-        required: true
+  attributes:
+    label: server ip
+    description: the ip of the server
+  Validation:
+      required: true
