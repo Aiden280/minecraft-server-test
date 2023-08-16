@@ -156,7 +156,7 @@ body.select-version .play-button {
     background-size: cover;
 }
 .diff-docs-bg{
-	background: url('docs-bg.png') no-repeat center center fixed;
+    background: url('docs-bg.png') no-repeat center center fixed;
     background-size: cover;
 }
 .docs-button {
@@ -184,6 +184,6 @@ body.select-version .play-button {
 
 
 .docs-button img{
-	width: 100%;
+    width: 100%;
     display: block;
 }
