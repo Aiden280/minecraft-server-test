@@ -4,6 +4,43 @@
     src: url('MinecraftRegular-Bmg3.otf') format('truetype');
 }
 
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    transition: .5s;
+    width: 15px
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(23,132,71);
+    border-radius: 10px;
+    border: none;
+    box-shadow: inset 0 0 8px rgb(23,132,71)!important;
+    transition: .5s
+}
+
+::-webkit-scrollbar-thumb {
+    background: #a35318;
+    border-radius: 10px;
+    transition: .5s
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #d85d00;
+    transition: .5s
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: #d85d00;
+    transition: .5s
+}
+
+::selection {
+    color: #fff!important;
+    background: #bc6809!important
+}
+}
+
+
 html,body{height:100%}
 
 body {
@@ -117,4 +154,36 @@ body.select-version .play-button {
 .diff-bg{
 	background: url('About-bg.png') no-repeat center center fixed;
     background-size: cover;
+}
+.diff-docs-bg{
+	background: url('docs-bg.png') no-repeat center center fixed;
+    background-size: cover;
+}
+.docs-button {
+    font-size: 2em;
+    padding: 10px;
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    max-width: 100%;
+    width: 450px;
+    text-align: center;
+    display: block;
+    margin:auto;
+	margin-left: 0;
+	margin-right: auto
+	width: max-content;
+	max-width: 100%
+}
+.mcbutton:hover {
+    background-color: darkgray;
+    color: white;
+}
+
+
+.docs-button img{
+	width: 100%;
+    display: block;
 }
