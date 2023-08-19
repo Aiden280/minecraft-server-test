@@ -16,8 +16,8 @@ Please give this repo a star if you want to host it!
 [![Deploy with Netlify](https://binbashbanana.github.io/deploy-buttons/buttons/remade/netlify.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/radmanplays/radmanplays.github.io)
 [![Deploy to Render](https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg)](https://render.com/deploy?repo=https://github.com/radmanplays/radmanplays.github.io)
 ## those who decided to give this repo a star and fork it :
-[![Stargazers repo roster for @radmanplays/radmanplays.github.io](https://reporoster.com/stars/radmanplays/3kh0X-v1)](https://github.com/radmanplays/radmanplays.github.io/stargazers)
-[![Forkers repo roster for @radmanplays/radmanplays.github.io](https://reporoster.com/forks/radmanplays/3kh0X-v1)](https://github.com/radmanplays/radmanplays.github.io/network/members)
+[![Stargazers repo roster for @radmanplays/radmanplays.github.io](https://reporoster.com/stars/radmanplays/radmanplays.github.io)](https://github.com/radmanplays/radmanplays.github.io/stargazers)
+[![Forkers repo roster for @radmanplays/radmanplays.github.io](https://reporoster.com/forks/radmanplays/radmanplays.github.io)](https://github.com/radmanplays/radmanplays.github.io/network/members)
 ## feel free to make a pull request
 ## if you have any questions go to the Discussions tap and ask your question there!
 ### the committed pull requests are updated on the site automaticlly
