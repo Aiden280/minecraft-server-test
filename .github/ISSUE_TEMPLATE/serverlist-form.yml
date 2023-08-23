@@ -30,19 +30,19 @@ body:
 - type: input
   attributes:
     label: Discord/revolt server
-    description: discord/revolt
+    description: discord/revolt invite (not required)
   validations:
     required: false
 - type: input
   attributes:
     label: server's website
-    description: the website of the server
+    description: the website of the server (not required)
   validations:
     required: false
     
 - type: input
   attributes:
     label: server ip
-    description: the ip of the server
+    description: the ip of the server. please put eaglercraft ip not minecraft. the ip should start with "wss://" if it dosnt it CANT be added to the serverlist
   validations:
     required: true
