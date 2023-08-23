@@ -15,7 +15,7 @@ body:
     - label: I know that by making a request you dont make me a server and add it to the serverlist
       required: true
     - label: I just checked all of these boxes without reading the labels
-      required: true
+      required: false
 - type: checkboxes
   attributes:
     label: replit server or 24/7 eaglercraft server?
