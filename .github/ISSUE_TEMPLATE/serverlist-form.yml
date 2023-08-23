@@ -19,6 +19,26 @@ body:
       online time, plugins, gamemodes,etc
   validations:
     required: true
+- type: textarea
+  attributes:
+    label: Screenshots
+    description: write at least 1 line about your server
+    placeholder: |
+      screenshots of the server
+  validations:
+    required: false
+- type: input
+  attributes:
+    label: Discord/revolt server
+    description: discord/revolt
+  validations:
+    required: false
+- type: input
+  attributes:
+    label: server's website
+    description: the website of the server
+  validations:
+    required: false
     
 - type: input
   attributes:
