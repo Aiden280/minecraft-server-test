@@ -4,6 +4,18 @@ title: "server name"
 body:
 - type: checkboxes
   attributes:
+    label: by making a request to add your server you must check these boxes
+    options:
+    - label: I know that this serverlist is only for servers that support eaglercraft
+      required: true
+    - label: I know that by making a request to add my server to the serverlist anyone can join my server
+      required: true
+    - label: I know that by making a request you dont make me a server and add it to the serverlist
+      required: true
+    - label: I just checked all of these boxes without reading the labels
+      required: true
+- type: checkboxes
+  attributes:
     label: replit server or 24/7 eaglercraft server?
     description: is the eaglercraft server made in replit or a paid,24/7 host? do NOT select both options or i cant add the server to the serverlist
     options:
