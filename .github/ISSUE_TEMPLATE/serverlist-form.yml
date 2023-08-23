@@ -2,7 +2,7 @@ name: Serverlist form
 description: Add a paid,27/7 or replit eaglercraft server
 title: "server name"
 body:
-- type: boolean
+- type: checkboxes
   attributes:
     label: replit server or 24/7 eaglercraft server?
     description: is the eaglercraft server made in replit or a paid,24/7 host?
