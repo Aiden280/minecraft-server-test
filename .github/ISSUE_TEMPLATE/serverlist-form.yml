@@ -22,7 +22,7 @@ body:
 - type: textarea
   attributes:
     label: Screenshots
-    description: write at least 1 line about your server
+    description: at least 2 or 3 screenshots of the server (not required)
     placeholder: |
       screenshots of the server
   validations:
