@@ -6,7 +6,9 @@ body:
   attributes:
     label: by making a request to add your server you must check these boxes
     options:
-    - label: I know that this serverlist is only for servers that support eaglercraft
+    - label: I know that this serverlist is only for servers that support eaglercraft or are only for eaglercraft
+      required: true
+    - label: I know that i have to include the eaglercraft ip in the ip section not the minecraft ip
       required: true
     - label: I know that by making a request to add my server to the serverlist anyone can join my server
       required: true
