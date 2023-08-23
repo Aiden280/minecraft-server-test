@@ -7,9 +7,9 @@ body:
     label: replit server or 24/7 eaglercraft server?
     description: is the eaglercraft server made in replit or a paid,24/7 host?
     options:
-    - label: the server is made in replit
+    - one: the server is made in replit
       required: false
-    - label: the server is made in an paid,24/7 host
+    - two: the server is made in an paid,24/7 host
       required: false
 - type: textarea
   attributes:
