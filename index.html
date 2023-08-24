@@ -35,8 +35,10 @@
     <div class="row vertical-center-row">
       <div class="col-12">
         <div class="d-flex justify-content-center">
-          <h1 class="rainbow-text">Online MC</h1>
+          <h1 class="rainbow-text">Online MC<div class="splash">...</div>
+		  </h1>
         </div>
+	  </div>
 
         <div class="col-12">
           <div class="button-area d-block">
@@ -68,12 +70,16 @@
               </div>
             </div>
           </div>
-        </div>
       </div>
     </div>
     <script defer src="/_vercel/insights/script.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+	<script src="splash.js">
+	</script>	
+	<script>
+	.splash.onload = myFunction;
+    </script>
     <script>
       window.onload = function () {
         //display loader on page load 

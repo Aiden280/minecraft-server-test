@@ -253,3 +253,21 @@ body.select-version .play-button {
     margin-top: 20px;
 	margin-bottom: 20px;
 }
+
+.rainbow-text{position: relative;}
+
+.splash{
+	background-image: unset;
+    -webkit-background-clip: unset;
+    color: unset;
+    text-align: center;
+    -webkit-text-stroke: 0;
+	/*	*/
+	position:absolute;
+	right:0;
+	top:calc(100% - 40px);
+	transform: rotate(-20deg);
+	color: yellow;
+	display:block;
+	font-size:34px;
+}
