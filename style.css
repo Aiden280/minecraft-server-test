@@ -271,3 +271,13 @@ body.select-version .play-button {
 	display:block;
 	font-size:34px;
 }
+
+.splash.bigtext{
+	    font-size: 28px;
+    top: calc(100% - 60px);
+    right: -30px;
+}
+.splash.smalltext{
+	top: calc(100% - 48px);
+
+}

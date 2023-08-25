@@ -50,6 +50,11 @@ async function setRandomSay() {
 
 
   document.querySelector(".splash").innerText = randomSplash;
+	if(randomSplash.length > 20){
+		$(".splash").addClass("bigtext");
+	}else if (randomSplash.length < 7){
+		$(".splash").addClass("smalltext");
+	}
 }
 
 
