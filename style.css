@@ -24,12 +24,7 @@
     transition: .5s
 }
 
-::-webkit-scrollbar-thumb:hover {
-    background: #d85d00;
-    transition: .5s
-}
-
-::-webkit-scrollbar-thumb:active {
+::-webkit-scrollbar-thumb:hover, ::-webkit-scrollbar-thumb:active  {
     background: #d85d00;
     transition: .5s
 }
@@ -38,12 +33,12 @@
     color: #fff!important;
     background: #bc6809!important
 }
-}
 
 
 html,body{height:100%}
 
 body {
+	transition: .5s backdrop-filter;
     background: url('online mc.png') no-repeat center center fixed;
     background-size: cover;
     font-family: Minecraft, sans-serif;
@@ -91,6 +86,7 @@ html, body, .container-table {
     text-align: center;
     display: block;
     margin:auto;
+	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .5s ease-in-out;
 }
 
 body.select-version .play-button {
@@ -280,4 +276,35 @@ body.select-version .play-button {
 .splash.smalltext{
 	top: calc(100% - 48px);
 
+}
+
+
+
+.night-mode-button svg{
+	width: 30px;
+	height: auto;
+	transition: 0.5s all;
+	visibility: visible;
+	opacity: 1;
+	display: block;
+}
+.night-mode-button svg.day{
+	visibility: hidden;
+	opacity: 0;
+	width: 0;
+}
+.btn-secondary {
+	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .5s ease-in-out;
+}
+
+.splash-404{
+	background-image: unset;
+	color: yellow;
+	font-size:26px;
+}
+.creeper{
+	font-size: 100px
+}
+.creeper:hover{
+	drop-shadow: 0 0 black
 }
