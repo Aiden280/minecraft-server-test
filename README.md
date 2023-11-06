@@ -17,8 +17,8 @@ Please give this repo a star if you want to host it!
 [![Deploy to Render](https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg)](https://render.com/deploy?repo=https://github.com/radmanplays/radmanplays.github.io)
 [![Deploy to Heroku](https://binbashbanana.github.io/deploy-buttons/buttons/remade/heroku.svg)](https://heroku.com/deploy/?template=https://github.com/radmanplays/radmanplays.github.io)
 ## those who decided to give this repo a star and fork it :
-[![Stargazers repo roster for @radmanplays/radmanplays.github.io](https://reporoster.com/stars/radmanplays/radmanplays.github.io)](https://github.com/radmanplays/radmanplays.github.io/stargazers)
-[![Forkers repo roster for @radmanplays/radmanplays.github.io](https://reporoster.com/forks/radmanplays/radmanplays.github.io)](https://github.com/radmanplays/radmanplays.github.io/network/members)
+[![Stargazers repo roster for @radmanplays/radmanplays.github.io](http://reporoster.com/stars/radmanplays/radmanplays.github.io)](http://github.com/radmanplays/radmanplays.github.io/stargazers)
+[![Forkers repo roster for @radmanplays/radmanplays.github.io](http://reporoster.com/forks/radmanplays/radmanplays.github.io)](http://github.com/radmanplays/radmanplays.github.io/network/members)
 
 
 ## Stargazers over time
