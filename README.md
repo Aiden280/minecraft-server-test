@@ -19,6 +19,12 @@ Please give this repo a star if you want to host it!
 ## those who decided to give this repo a star and fork it :
 [![Stargazers repo roster for @radmanplays/radmanplays.github.io](https://reporoster.com/stars/radmanplays/radmanplays.github.io)](https://github.com/radmanplays/radmanplays.github.io/stargazers)
 [![Forkers repo roster for @radmanplays/radmanplays.github.io](https://reporoster.com/forks/radmanplays/radmanplays.github.io)](https://github.com/radmanplays/radmanplays.github.io/network/members)
+
+
+## Stargazers over time
+
+[![Stargazers over time](https://starchart.cc/radmanplays/radmanplays.github.io.svg)](https://starchart.cc/radmanplays/radmanplays.github.io)
+
 ## feel free to make a pull request
 ## if you have any questions go to the Discussions tap and ask your question there!
 ### the committed pull requests are updated on the site automaticlly
